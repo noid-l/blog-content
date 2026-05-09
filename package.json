@@ -1,0 +1,11 @@
+{
+  "name": "@noid-l/blog-content",
+  "version": "1.0.0",
+  "description": "Framework-agnostic blog content source",
+  "private": true,
+  "files": [
+    "posts",
+    "about.md",
+    "public"
+  ]
+}
