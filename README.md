@@ -40,7 +40,7 @@
 
 ## 消费仓库
 
-- [blog-vitepress](https://github.com/noid-l/myls-top) - VitePress 版本
+- [blog-vitepress](https://github.com/noid-l/blog-vitepress) - VitePress 版本
 - blog-rspress - Rspress 版本（React）
 
 ## 更新工作流
