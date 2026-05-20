@@ -1,0 +1,25 @@
+name: Notify Content Update
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        repo:
+          - noid-l/blog-vitepress
+          - noid-l/blog-rspress
+    steps:
+      - name: Trigger submodule update
+        env:
+          REPO: ${{ matrix.repo }}
+          TOKEN: ${{ secrets.PAT_TOKEN }}
+        run: |
+          curl -X POST \
+            -H "Authorization: token $TOKEN" \
+            -H "Accept: application/vnd.github.v3+json" \
+            "https://api.github.com/repos/$REPO/dispatches" \
+            -d '{"event_type":"update-submodule"}'
