@@ -28,15 +28,15 @@
 
 ## Frontmatter 字段
 
-| 字段 | 类型 | 必填 | 说明 |
-|------|------|------|------|
-| title | string | 是 | 文章标题 |
-| date | string | 是 | 发布日期 (YYYY-MM-DD) |
-| tags | string[] | 否 | 标签列表 |
-| description | string | 否 | 文章描述 |
-| cover | string | 否 | 封面图片路径 |
-| category | string | 否 | 文章分类 |
-| draft | boolean | 否 | 是否为草稿（默认 false） |
+| 字段        | 类型     | 必填 | 说明                     |
+| ----------- | -------- | ---- | ------------------------ |
+| title       | string   | 是   | 文章标题                 |
+| date        | string   | 是   | 发布日期 (YYYY-MM-DD)    |
+| tags        | string[] | 否   | 标签列表                 |
+| description | string   | 否   | 文章描述                 |
+| cover       | string   | 否   | 封面图片路径             |
+| category    | string   | 否   | 文章分类                 |
+| draft       | boolean  | 否   | 是否为草稿（默认 false） |
 
 ## 消费仓库
 

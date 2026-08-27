@@ -154,14 +154,14 @@ Agent = LLM 大脑 + Tools 工具 + State 状态 + Memory 记忆 + Workflow/Plan
 
 ### 先理解怎么选，不要先比谁"最强"
 
-| 向量库 | 适合场景 | 特点 | 文档 |
-|--------|----------|------|------|
-| Chroma | 最快本地原型 | 轻量、简单、上手最快 | [Docs](https://docs.trychroma.com/) |
-| Qdrant | 自托管、生产可用 | 很多团队的实用默认选项 | [Docs](https://qdrant.tech/documentation/) |
-| pgvector | 已有 PostgreSQL 的团队 | 少一个独立基础设施组件 | [GitHub](https://github.com/pgvector/pgvector) |
-| Pinecone | 快速上生产、减少运维 | 托管方便，但有平台成本 | [Docs](https://docs.pinecone.io/) |
-| Milvus | 更大规模向量检索 | 能力强，但运维更重 | [Docs](https://milvus.io/docs) |
-| Weaviate | 更丰富 schema / hybrid search | 功能全面，概念稍多 | [Docs](https://docs.weaviate.io/) |
+| 向量库   | 适合场景                      | 特点                   | 文档                                           |
+| -------- | ----------------------------- | ---------------------- | ---------------------------------------------- |
+| Chroma   | 最快本地原型                  | 轻量、简单、上手最快   | [Docs](https://docs.trychroma.com/)            |
+| Qdrant   | 自托管、生产可用              | 很多团队的实用默认选项 | [Docs](https://qdrant.tech/documentation/)     |
+| pgvector | 已有 PostgreSQL 的团队        | 少一个独立基础设施组件 | [GitHub](https://github.com/pgvector/pgvector) |
+| Pinecone | 快速上生产、减少运维          | 托管方便，但有平台成本 | [Docs](https://docs.pinecone.io/)              |
+| Milvus   | 更大规模向量检索              | 能力强，但运维更重     | [Docs](https://milvus.io/docs)                 |
+| Weaviate | 更丰富 schema / hybrid search | 功能全面，概念稍多     | [Docs](https://docs.weaviate.io/)              |
 
 ### 实用建议
 

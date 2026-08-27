@@ -1,8 +1,8 @@
 {
   "name": "@noid-l/blog-content",
   "version": "1.0.0",
-  "description": "Framework-agnostic blog content source",
   "private": true,
+  "description": "Framework-agnostic blog content source",
   "files": [
     "posts",
     "about.md",
