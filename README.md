@@ -22,8 +22,7 @@
     ├── favicon.ico
     ├── favicon.png
     ├── beian.png
-    ├── robots.txt
-    └── og/             # OG 图片（由消费仓库构建时生成）
+    └── robots.txt
 ```
 
 ## Frontmatter 字段

@@ -15,8 +15,7 @@ public/             # 静态资源
     ├── favicon.ico
     ├── favicon.png
     ├── beian.png
-    ├── robots.txt
-    └── og/         # OG 图片（由消费仓库构建时生成，不要手动修改）
+    └── robots.txt
 ```
 
 ## Writing Guidelines

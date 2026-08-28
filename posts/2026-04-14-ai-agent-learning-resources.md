@@ -10,7 +10,6 @@ tags:
   - RAG
 description: 面向开发者的 AI Agent 学习路径，覆盖 Agent 基础、Dify 平台、LangChain/LangGraph 框架和向量数据库选型，含推荐学习顺序和最小实践路线。
 draft: false
-cover: /og/default.png
 ---
 
 # AI Agent 开发者学习路径整理

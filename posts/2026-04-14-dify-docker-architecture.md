@@ -9,7 +9,6 @@ tags:
   - AI 平台
 description: 梳理 Dify 1.14 的 Docker Compose 服务架构，包括核心服务、可选数据库和向量数据库的 profile 切换方式。
 draft: false
-cover: /og/default.png
 ---
 
 # Dify 1.14 Docker 服务架构解析
